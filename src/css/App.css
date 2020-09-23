@@ -1,0 +1,35 @@
+.descImage {
+    text-align: center;
+    display: block;
+    font-family: Arial;
+    font-size: medium;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+h6 {
+    font-size: 12px;
+    justify-content: center;
+}
+
+.descMenu {
+    font-weight: bold;
+    font-size: small;
+    font-family: Arial;
+}
+
+.salesText {
+    color: black;
+}
+
+.salesIcon {
+    color: #4271d2;
+}
+
+.button {
+    text-transform: lowercase;
+}
+
