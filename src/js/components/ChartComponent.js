@@ -18,7 +18,7 @@ export class ChartComponent extends Component {
             <>
                 <div className={"lineChart"}>
                     <h3>Retail Sales</h3>
-                    <LineChart width={1200} height={300} data={this.props.stackLineData}>
+                    <LineChart width={900} height={300} data={this.props.stackLineData}>
                         <XAxis dataKey="weekEnding" tickLine={false} axisLine={{ stroke: 'rgba(234,240,244,0.01)' }}/>
                         <Tooltip/>
                         <Line type="monotone" dataKey="salesPerMonth" stroke="#2b54d8" strokeWidth={2} dot={false} />
